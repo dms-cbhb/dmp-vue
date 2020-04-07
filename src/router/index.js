@@ -5,7 +5,10 @@ Vue.use(Router);
 
 import Layout from "@/views/layout/layout";
 
-export const commontRouterMap = [{
+
+export const commontRouterMap = [
+  
+   {
     path: "/login",
     hidden: true, //不在slider显示
     component: () =>
